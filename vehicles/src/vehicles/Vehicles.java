@@ -7,10 +7,10 @@ public class Vehicles {
 	public static int Cilindrada =1800; 
 	public static int Portes =5; 
 	
-	 //falta implementar constructor 
+	//constructor inicialitza vel_actual a 0
 	public Vehicles() {
 		super();
-		Vel_actual =0;
+		setVel_actual(0);
 		
 	}
 	
