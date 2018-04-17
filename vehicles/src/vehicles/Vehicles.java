@@ -39,4 +39,17 @@ public class Vehicles {
 				return getVel_actual();
 	}
 	
+	public int DeCcelerar(int Vel_Actual){
+		
+		if (getVel_actual() < LIMIT_Vel) {
+			
+			
+			setVel_actual(getVel_actual()-10);
+			
+				return getVel_actual();
+			}
+		else	
+			return getVel_actual();
+}
+	
 }
