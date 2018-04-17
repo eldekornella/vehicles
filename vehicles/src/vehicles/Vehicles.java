@@ -8,13 +8,18 @@ public class Vehicles {
 	public static int Portes =5; 
 	
 	 //falta implementar constructor 
-	
+	public Vehicles() {
+		super();
+		Vel_actual =0;
+		
+	}
 	
 	//getters i setters
 	
 	public int getVel_actual() {
 		return Vel_actual;
 	}
+	
 	public void setVel_actual(int vel_actual) {
 		Vel_actual = vel_actual;
 	}
